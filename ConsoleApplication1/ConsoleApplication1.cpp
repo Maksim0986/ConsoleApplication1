@@ -18,7 +18,6 @@ int main(void)
 		for (c -= k; c--; n /= 10);
 
 		cout << "k-ая цифра последовательности: " << n % 10 << endl;
-		break;
 	}
 	cin.get();
 	return 0;
